@@ -7,7 +7,7 @@ export default createStore(function(state, action) {
         return {number:0};
     }
 
-    if (action.type === 'INCREAMENT') {
+    if (action.type === 'INCREMENT') {
         return {...state, number:state.number + action.size}
     }
 
